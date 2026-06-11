@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#030205" />
+    <meta
+      name="description"
+      content="Uma experiência digital criada por Filipe para Brenda Nickolly."
+    />
+    <title>Project Brenda</title>
+    <link rel="stylesheet" href="./static-site.css" />
+    <script src="./static-site.js" defer></script>
+  </head>
+  <body>
+    <div class="ambient-background" aria-hidden="true">
+      <div class="star-noise"></div>
+      <div class="light-rift light-rift-one"></div>
+      <div class="light-rift light-rift-two"></div>
+    </div>
+
+    <section class="intro-screen" id="intro">
+      <div class="intro-stars"></div>
+      <div class="intro-scanline"></div>
+      <div class="intro-console">
+        <span class="system-pill">PROJECT BRENDA</span>
+        <div class="typed-line" id="typed-line">
+          <span id="typed-text"></span><span class="cursor"></span>
+        </div>
+        <span class="creator-credit">Um site criado 100% por Filipe para Brenda</span>
+        <button class="enter-button" id="enter-button" type="button" hidden>Entrar</button>
+      </div>
+      <div class="portal-overlay" id="portal-overlay" hidden>
+        <div class="portal-ring"></div>
+      </div>
+    </section>
+
+    <main class="experience-shell" id="site" hidden>
+      <section class="opening-statement">
+        <div class="statement-inner reveal">
+          <span class="chapter-kicker">Entre infinitos universos possíveis</span>
+          <h1>Eu sempre encontraria Brenda.</h1>
+        </div>
+      </section>
+
+      <section class="chapter probability-chapter">
+        <div class="chapter-copy reveal">
+          <span class="chapter-kicker">Capítulo 1</span>
+          <h2>A Probabilidade</h2>
+          <div class="stat-sequence">
+            <span>Mais de 8 bilhões de pessoas.</span>
+            <span>Milhões de caminhos possíveis.</span>
+            <span>Infinitas combinações.</span>
+            <strong>Mas de alguma forma...</strong>
+          </div>
+        </div>
+        <div class="particle-stage reveal">
+          <canvas id="name-canvas" width="920" height="360" aria-hidden="true"></canvas>
+          <div class="formed-name-aura">Brenda</div>
+        </div>
+      </section>
+
+      <section class="chapter love-chapter">
+        <div class="chapter-copy compact reveal">
+          <span class="chapter-kicker">Capítulo 2</span>
+          <h2>As Coisas Que Eu Amo Em Você</h2>
+        </div>
+        <div class="floating-card-grid reveal" id="love-cards"></div>
+      </section>
+
+      <section class="chapter archive-chapter">
+        <div class="chapter-copy compact reveal">
+          <span class="chapter-kicker">Capítulo 3</span>
+          <h2>Arquivo de Memórias</h2>
+        </div>
+        <div class="archive-console reveal">
+          <div class="archive-tabs" id="archive-tabs" role="tablist" aria-label="Categorias de memorias"></div>
+          <div class="archive-content" id="archive-content"></div>
+        </div>
+      </section>
+
+      <section class="chapter music-chapter">
+        <div class="music-panel music-universe-panel reveal">
+          <div class="chapter-copy compact">
+            <span class="chapter-kicker">Capítulo 4</span>
+            <h2>Dois sinais no mesmo universo</h2>
+          </div>
+          <div class="character-music-grid" id="character-music-grid"></div>
+        </div>
+      </section>
+
+      <section class="multiverse-section" id="multiverse">
+        <canvas class="multiverse-canvas" id="multiverse-canvas" aria-hidden="true"></canvas>
+        <div class="multiverse-interface reveal">
+          <span class="chapter-kicker">Capítulo 5</span>
+          <h2>O Multiverso das Escolhas</h2>
+          <div class="multiverse-progress"><span id="choice-progress"></span></div>
+          <div class="choice-console" id="choice-console">
+            <span class="choice-index" id="choice-index"></span>
+            <h3 id="choice-title"></h3>
+            <div class="choice-grid">
+              <button id="choice-left" type="button"></button>
+              <button id="choice-right" type="button"></button>
+            </div>
+            <p class="choice-consequence" id="choice-consequence" hidden></p>
+          </div>
+          <div class="multiverse-result" id="multiverse-result" hidden>
+            <span class="result-pair">Brenda + Eu</span>
+            <small>Resultado da análise:</small>
+            <p>Em 100% das simulações, a gente acaba encontrando o caminho um para o outro.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="chapter future-chapter">
+        <div class="chapter-copy compact reveal">
+          <span class="chapter-kicker">Capítulo 6</span>
+          <h2>O Nosso Futuro</h2>
+        </div>
+        <div class="timeline" id="future-timeline"></div>
+      </section>
+
+      <section class="final-chapter">
+        <div class="final-lines reveal">
+          <p>Se eu pudesse viver infinitos universos...</p>
+          <p>Eu ainda escolheria você.</p>
+          <p>De novo.</p>
+          <p>E de novo.</p>
+          <p>E de novo.</p>
+        </div>
+        <div class="countdown-block reveal">
+          <span class="anniversary-date">09 de Outubro de 2025</span>
+          <div class="countdown-grid" id="countdown-grid"></div>
+        </div>
+        <section class="photo-wall reveal">
+          <div class="photo-wall-space" id="photo-wall-space"></div>
+        </section>
+        <div class="closing-message reveal">
+          <div class="closing-heart">♥</div>
+          <p>
+            Brenda,<br />
+            não importa quantos universos existam,<br />
+            eu sempre encontraria o caminho de volta até você.<br />
+            Feliz Dia dos Namorados.<br />
+            Com amor,<br />
+            Eu, Filipe, seu namorado e futuro esposo.
+          </p>
+        </div>
+        <div class="heart-constellation reveal" id="heart-constellation" aria-hidden="true"></div>
+      </section>
+    </main>
+
+    <div class="fullscreen-card" id="love-modal" hidden>
+      <article class="fullscreen-card-inner">
+        <button class="icon-button close-button" id="close-modal" type="button" aria-label="Fechar cartao">×</button>
+        <span class="chapter-kicker">Arquivo sensível</span>
+        <h3 id="modal-title"></h3>
+        <p id="modal-body"></p>
+      </article>
+    </div>
+
+    <audio id="ambient-audio" src="./audio/videoplayback.m4a" loop preload="auto"></audio>
+  </body>
+</html>
