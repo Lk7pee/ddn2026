@@ -1,0 +1,140 @@
+{
+  "loveCards": [
+    {
+      "title": "Seu sorriso",
+      "body": "Existe um antes e um depois quando ele aparece. O mundo fica mais leve, como se tudo encontrasse o tom certo."
+    },
+    {
+      "title": "Sua risada",
+      "body": "Ela muda o clima de qualquer lugar. Eu reconheceria esse som em qualquer universo."
+    },
+    {
+      "title": "Seu cuidado",
+      "body": "Você repara nas pessoas de um jeito raro. Faz carinho nos detalhes, protege sem fazer barulho."
+    },
+    {
+      "title": "Seu carinho",
+      "body": "Tem coisas que só ficam bonitas quando vêm de você. Um gesto pequeno seu vira memória grande."
+    },
+    {
+      "title": "Sua personalidade",
+      "body": "Doce, intensa, única. Um conjunto impossível de repetir, impossível de esquecer."
+    },
+    {
+      "title": "Você em geral",
+      "body": "O jeito de olhar, as manias, as frases, os silêncios. Eu amo até o que talvez você nem perceba."
+    }
+  ],
+  "memoryCategories": [
+    {
+      "id": "favoritos",
+      "title": "❤ Momentos favoritos",
+      "signal": "AFETO PRIMÁRIO",
+      "entries": [
+        {
+          "title": "Quando tudo pareceu simples",
+          "body": "Aqueles minutos em que estar com você bastou para transformar o meu dia inteiro.",
+          "photoIndex": 0
+        },
+        {
+          "title": "O tipo de lembrança que fica",
+          "body": "Não porque foi perfeito, mas porque eu vivi aquilo com você.",
+          "photoIndex": 3
+        },
+        {
+          "title": "Um pedaço de paz",
+          "body": "O mundo correndo do lado de fora e, ali dentro, só importava ficar perto de você.",
+          "photoIndex": 6
+        }
+      ]
+    },
+    {
+      "id": "engracados",
+      "title": "😂 Momentos engraçados",
+      "signal": "RISADA DETECTADA",
+      "entries": [
+        {
+          "title": "O caos bonito",
+          "body": "A parte em que nada sai exatamente como planejado e mesmo assim vira uma das minhas histórias preferidas.",
+          "photoIndex": 1
+        },
+        {
+          "title": "Olhares cúmplices",
+          "body": "Aquele nosso código secreto em que uma cara sua já me conta a piada inteira.",
+          "photoIndex": 4
+        },
+        {
+          "title": "Rir até esquecer",
+          "body": "Porque com você, até o absurdo parece ter trilha sonora.",
+          "photoIndex": 8
+        }
+      ]
+    },
+    {
+      "id": "detalhes",
+      "title": "🌙 Pequenos detalhes",
+      "signal": "CAMADA SECRETA",
+      "entries": [
+        {
+          "title": "Jeito de cuidar",
+          "body": "Nas pequenas atitudes, você me mostra que amor também mora na atenção.",
+          "photoIndex": 2
+        },
+        {
+          "title": "O olhar",
+          "body": "Tem respostas que eu encontro antes mesmo de você dizer qualquer coisa.",
+          "photoIndex": 5
+        },
+        {
+          "title": "As manias",
+          "body": "Coisas pequenas, quase invisíveis, que fazem você ser exatamente você.",
+          "photoIndex": 9
+        }
+      ]
+    },
+    {
+      "id": "especiais",
+      "title": "✨ Lembranças especiais",
+      "signal": "ARQUIVO ETERNO",
+      "entries": [
+        {
+          "title": "O começo de uma certeza",
+          "body": "Quando eu entendi que não queria apenas viver momentos, queria viver você.",
+          "photoIndex": 7
+        },
+        {
+          "title": "Presente contínuo",
+          "body": "Tem lembranças que não ficam no passado. Elas continuam acontecendo dentro de mim.",
+          "photoIndex": 10
+        },
+        {
+          "title": "Casa em forma de pessoa",
+          "body": "Eu encontrei em você destino, descanso e futuro no mesmo nome.",
+          "photoIndex": 12
+        }
+      ]
+    }
+  ],
+  "futureMoments": [
+    {
+      "title": "Viagens",
+      "body": "Novas cidades, novas fotos, o mesmo jeito de procurar a sua mão."
+    },
+    {
+      "title": "Conquistas",
+      "body": "Celebrar cada vitória como se fosse nossa, porque de algum jeito sempre será."
+    },
+    {
+      "title": "Crescimento pessoal",
+      "body": "Ser abrigo sem prender, impulso sem pressa, amor que ajuda a virar versão melhor."
+    },
+    {
+      "title": "Novas experiências",
+      "body": "Experimentar o mundo com a curiosidade de quem sabe que a companhia muda tudo."
+    },
+    {
+      "title": "Envelhecer juntos",
+      "body": "Chegar longe e ainda reconhecer, no rosto do outro, o mesmo lugar de sempre."
+    }
+  ]
+}

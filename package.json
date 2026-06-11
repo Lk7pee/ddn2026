@@ -1,0 +1,36 @@
+{
+  "name": "project-brenda",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.1.2",
+    "framer-motion": "^12.23.12",
+    "gsap": "^3.13.0",
+    "lenis": "^1.3.8",
+    "lottie-react": "^2.4.1",
+    "lucide-react": "^0.468.0",
+    "next": "^15.4.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "three": "^0.178.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "@types/three": "^0.178.1",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.10",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.3"
+  }
+}
